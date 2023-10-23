@@ -85,7 +85,7 @@ main {
 }
 
 .title {
-    background: var(--NAVY-BLUE);
+    background: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../images/people-office\ 1.jpg");
     font-style: normal;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -127,21 +127,52 @@ h3 {
    
 }
 /**Hero style**/
+.strategies{padding-top: 50px;}
+.astronaut { 
+    width: 80px; 
+    text-align: center; 
+    height: 60px; 
+    padding: 20px 80px;
+    background-color: #f4f4fd;}
+.clock{ 
+    
+    width: 80px;
+    text-align: center;
+    height: 60px;
+    padding: 20px 80px;
+    background-color: #f4f4fd;}
+.diagram{ 
+    
+    width: 80px;
+    text-align: center;
+    height: 60px;
+    padding: 20px 80px;
+    background-color: #f4f4fd;}
+.antenna {
+    margin-left: 25px;
+    width: 80px;
+    text-align: center;
+    height: 60px;
+    padding: 20px 80px;
+    background-color: #f4f4fd;} 
+/** END HERE **/
+
 .group {
     display: flex; 
-    justify-content: right;}
-.strategy h3 { 
-    margin-left: 70px; 
-    margin-top: 50px;}
+    justify-content: space-between;}
+.strategy h3 { margin: 0px;
+    padding-left: 50px; 
+    padding-bottom: 20px;}
 .strategy p { 
     border: 0px; 
     width: 264px; 
-    margin-left: 70px; 
+    margin-left: 50px; 
     margin-top: auto;}
 
 .punctuality h3 {
-    margin-left: 5px;
-    margin-top: 50px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 20px;
 }
 
 .punctuality p {
@@ -150,10 +181,10 @@ h3 {
     margin-left: 5px;
     margin-top: auto;
 }
-.diligence h3 {
-    margin-left: 5px;
-    margin-top: 50px;
-}
+
+.diligence h3 {margin: 0px;
+padding-left: 5px;
+padding-bottom: 20px;}
 
 .diligence p {
     border: 0px;
@@ -162,8 +193,9 @@ h3 {
     margin-top: auto;
 }
 .technologies h3 {
-    margin-left: 5px;
-    margin-top: 50px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-bottom: 20px;
 }
 
 .technologies p {
@@ -176,7 +208,9 @@ h3 {
     display: flex;
     justify-content: space-between;}
 
-.group-team-1 { display: flex; justify-content: space-around;
+.group-team-1 { 
+    display: flex; 
+    justify-content: space-around;
     width: 1158px}
 
 .designer {display: grid;}
@@ -195,6 +229,26 @@ h3 {
 .our-team{ margin-top: 100px; padding-top: 100px;}
 
 .office-team {background-color: #f4f4fd; width: 1158px; height: 700px;}
+
+.strategy-1 {display: flex;
+    justify-content: space-evenly;}
+.teams-icon { 
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+
+.team-all-icons {
+    background-color: var(--IRIS);
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    fill: #f4f4fd;
+
+}
+
+
+
 /** Hero style end**/
 
 
@@ -215,6 +269,40 @@ body li {display: inline-flex; justify-content: space-between;}
 
 /**End of Main**/
 
+/**Customers styling**/
+
+.customer-icon {
+    border: 1px solid #8e8f99;
+    padding: 5px 15px ;
+    border-radius: 5%;
+}
+
+.customer-icon:hover,
+.customer-icon:focus{
+    border-color: var(--IRIS);
+}
+.customer-icon:hover svg { 
+    fill: var(--IRIS);
+}
+
+.customer-team:hover,
+.customer-team:focus{
+    color: var(--IRIS);
+}
+.customer-team:hover svg {color: var(--IRIS)}
+.customers {
+    padding-bottom: 100px;
+}
+.customer-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-title {
+    padding: 150px 0px 0px 0px;
+    margin: 0px;
+}
+
 /**Footer**/
 footer {
     color: var(--WHITE);
@@ -228,6 +316,7 @@ footer {
     line-height: 24px;
     font-weight: 400;
     letter-spacing: 0.32px;
+    margin: 0px;
 }
 
 /**end  of footer**/
@@ -240,4 +329,22 @@ footer { margin-left: 15px;}
     margin-left: 100px; 
     padding-top: 80px; 
     padding-bottom: 80px;}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.social {
+    background-color: var(--IRIS);
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    fill: #f4f4fd;
+}
+
+.team-media { display: inline-grid}
+.media {padding-left: 50px;}
 /**Footer end style**/

@@ -281,7 +281,8 @@ body li {display: inline-flex; justify-content: space-between;}
 .customer-icon:focus{
     border-color: var(--IRIS);
 }
-.customer-icon:hover svg { 
+.customer-icon:hover svg,
+.customer-icon:focus svg{ 
     fill: var(--IRIS);
 }
 
@@ -289,7 +290,9 @@ body li {display: inline-flex; justify-content: space-between;}
 .customer-team:focus{
     color: var(--IRIS);
 }
-.customer-team:hover svg {color: var(--IRIS)}
+.customer-team:hover svg,
+.customer-team:focus svg {fill: var(--IRIS)}
+
 .customers {
     padding-bottom: 100px;
 }

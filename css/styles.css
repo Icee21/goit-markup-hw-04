@@ -2,7 +2,9 @@
     --IRIS: #4D5AE5;
     --NAVY-BLUE: #2E2F42;
     --WHITE: #FFF;
-    --SLATE: #434455
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
 }
 
 body {
@@ -106,7 +108,7 @@ h1 {
 
 }
 
-button {
+.button {
     font-family: Roboto;
     font-size: 16px;
     background-color: var(--IRIS);
@@ -351,3 +353,76 @@ footer { margin-left: 15px;}
 .team-media { display: inline-grid}
 .media {padding-left: 50px;}
 /**Footer end style**/
+
+
+
+/**Portfolio**/
+
+.design { 
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--IRIS);
+    background: var(--CLOUD);
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+    padding: 12px 24px;}
+
+.all {font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--IRIS);
+    background: var(--CLOUD);
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-left: 300px;
+    margin-right: 24px }
+.website{font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--IRIS);
+    background: var(--CLOUD);
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-right: 24px}
+.app {font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--IRIS);
+    background: var(--CLOUD);
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-right: 24px}
+.marketing{font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--IRIS);
+    background: var(--CLOUD);
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-left: 24px}
+.project-1 {margin-top: 50px;}
+.line{border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px 0px rgba(46, 47, 66, 0.08);}
